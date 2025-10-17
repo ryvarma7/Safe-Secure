@@ -88,8 +88,8 @@ Edit `src/main/java/com/example/securefiletransfer/DatabaseManager.java` and upd
 
 ```java
 private static final String DB_URL = "jdbc:mysql://localhost:3306/secure_file_transfer";
-private static final String DB_USER = "root";
-private static final String DB_PASSWORD = "Sql@2112"; // Change if needed
+private static final String DB_USER = "your_username";
+private static final String DB_PASSWORD = "your_password"; // Change if needed
 ```
 
 ### **Step 5: Compile the Application**
