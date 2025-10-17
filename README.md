@@ -1,21 +1,21 @@
-# 🛡️ SafeShare - Secure File Transfer System with MySQL Backend
+# SafeShare - Secure File Transfer System with MySQL Backend
 
 **SafeShare** is a fully functional **secure file transfer application** built with a **Java Swing UI** and a **MySQL database** for persistent data storage and access control.
 
 ---
 
-## 🚀 Overview
+## Overview
 
 SafeShare enables secure management and sharing of files with a robust **two-role system** — **Administrator** and **User** — ensuring that sensitive documents are only accessed by authorized individuals.
 
-### 👤 Users Can:
+### Users Can:
 - Register for an account with a password strength checker  
 - Log in securely to their personal dashboard  
 - Browse a list of available files  
 - Request access to specific files  
 - View approved files using a unique access key  
 
-### 🧑‍💼 Administrators Can:
+### Administrators Can:
 - Manage the entire file repository (upload/delete)  
 - View and manage all user access requests  
 - Approve or reject file access requests  
@@ -25,7 +25,7 @@ All data is persistently stored in a **MySQL database**, ensuring user informati
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 SafeShare/
@@ -48,7 +48,7 @@ SafeShare/
 
 ---
 
-## ⚙️ System Requirements
+## System Requirements
 
 | Component | Version |
 |------------|----------|
@@ -61,7 +61,7 @@ SafeShare/
 
 ---
 
-## 🧩 Installation Instructions
+## Installation Instructions
 
 ### **Step 1: Prerequisites**
 - Install **JDK 17+**
@@ -104,7 +104,7 @@ mvn exec:java -Dexec.mainClass="com.example.securefiletransfer.SecureFileTransfe
 
 ---
 
-## 🔐 Default Login Credentials
+## Default Login Credentials
 
 | Role | Username | Password |
 |------|-----------|-----------|
@@ -112,7 +112,7 @@ mvn exec:java -Dexec.mainClass="com.example.securefiletransfer.SecureFileTransfe
 
 ---
 
-## ✨ Features
+## Features
 
 ### User & Admin Management
 - Role-based access (User/Admin)  
@@ -137,7 +137,7 @@ mvn exec:java -Dexec.mainClass="com.example.securefiletransfer.SecureFileTransfe
 
 ---
 
-## 🧱 Database Schema
+## Database Schema
 
 **Tables:**
 - `users` – Stores user accounts, credentials, and roles  
@@ -146,7 +146,7 @@ mvn exec:java -Dexec.mainClass="com.example.securefiletransfer.SecureFileTransfe
 
 ---
 
-## 🧰 Troubleshooting
+## Troubleshooting
 
 ### Maven/Compilation Errors
 - Run: `mvn clean install`
@@ -163,7 +163,7 @@ mvn exec:java -Dexec.mainClass="com.example.securefiletransfer.SecureFileTransfe
 
 ---
 
-## 🔒 Security Considerations
+## Security Considerations
 
 **Current Implementation:**
 - Parameterized queries to prevent SQL injection  
@@ -176,7 +176,7 @@ mvn exec:java -Dexec.mainClass="com.example.securefiletransfer.SecureFileTransfe
 
 ---
 
-## 🚧 Future Enhancements
+## Future Enhancements
 
 - File encryption at rest  
 - Email notifications for request updates  
@@ -188,4 +188,4 @@ mvn exec:java -Dexec.mainClass="com.example.securefiletransfer.SecureFileTransfe
 ---
 
 **Last Updated:** October 17, 2025  
-**Status:** ✅ Completed
+**Status:**  Completed
