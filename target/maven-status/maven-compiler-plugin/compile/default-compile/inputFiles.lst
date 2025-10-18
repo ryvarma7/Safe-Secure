@@ -1,11 +1,13 @@
 D:\SecureFileTransfer\src\main\java\com\example\securefiletransfer\AdminPanel.java
 D:\SecureFileTransfer\src\main\java\com\example\securefiletransfer\DatabaseManager.java
+D:\SecureFileTransfer\src\main\java\com\example\securefiletransfer\EmailSender.java
 D:\SecureFileTransfer\src\main\java\com\example\securefiletransfer\FileHandler.java
 D:\SecureFileTransfer\src\main\java\com\example\securefiletransfer\LoginPanel.java
 D:\SecureFileTransfer\src\main\java\com\example\securefiletransfer\PasswordStrengthDots.java
 D:\SecureFileTransfer\src\main\java\com\example\securefiletransfer\RegisterPanel.java
 D:\SecureFileTransfer\src\main\java\com\example\securefiletransfer\SecureFileTransfer.java
 D:\SecureFileTransfer\src\main\java\com\example\securefiletransfer\StatusCellRenderer.java
+D:\SecureFileTransfer\src\main\java\com\example\securefiletransfer\TestEmail.java
 D:\SecureFileTransfer\src\main\java\com\example\securefiletransfer\UITheme.java
 D:\SecureFileTransfer\src\main\java\com\example\securefiletransfer\UserPanel.java
 D:\SecureFileTransfer\src\main\java\com\example\securefiletransfer\ViewerDialog.java
